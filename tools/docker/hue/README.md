@@ -54,7 +54,7 @@ So in our case [http://172.17.0.2:8888](http://172.17.0.2:8888).
 ### Configuration
 
 By default the Hue container is using
-[``tools/docker/hue/conf/hue-overrides.ini``](/tools/docker/hue/conf/hue-overrides.ini) on top of [``desktop/conf/hue.ini``](/desktop/conf/hue.ini) which assumes localhost for all the data services and uses and embedded sqlite database that will error out.
+[``tools/docker/hue/conf/hue-overrides.ini``](/tools/docker/hue/conf/hue-overrides.ini) on top of [``desktop/conf/hue.ini``](/desktop/conf.dist/hue.ini) which assumes localhost for all the data services and uses and embedded sqlite database that will error out.
 
 To configure Hue to point to the databases to query, the simplified ini [``hue-overrides.ini``](/tools/docker/hue/conf/hue-overrides.ini) can be edited before starting Hue via:
 
